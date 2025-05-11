@@ -1,0 +1,17 @@
+
+9-5-25
+
+ npx create-react-app .
+                                                                                                               
+npm install react-router-dom
+
+npm start                                                                                              
+
+set tittle in pulbic index.html                                                                                     
+
+add two folders Context and Componenets and Pages
+
+to fix corupter react
+
+npx build 
+npm install

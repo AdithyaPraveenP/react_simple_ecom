@@ -1,0 +1,122 @@
+               
+          1 initilaizing the folder
+
+ 	git init
+                                                               
+	2 save progress	 in system
+	git add .
+                                                                                                                              
+	3  git commit -m   ‘describe-the-change’                  m→ message   
+
+
+	4 git log     → to see changes   
+
+
+	5 git checkout  <here add the log SHA of the change>       
+
+          6 git remote add origin https://github.com.    [PUSH]      
+								     → 
+                                                                                  to upload the code to 											code base     
+                                                            
+	7 git push -u origin master
+
+
+	8 to make new branch
+
+		git branch <branch-name>      # Create the branch
+		git checkout <branch-name>   # Switch to it
+                                                                                          
+		git checkout -b <new-branch>
+
+		//open that branch
+
+		git branch
+
+
+	how to  merge into master branch
+
+		git push origin new-branch (git push the new-branch to origin)
+
+
+
+	to copy changes to your device
+
+		git pull origin master
+                                                            
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                            
+how to merge two branches 
+
+1) Switch to main branch
+
+	git checkout <branch_name>
+
+	git merge <branch to merger>
+
+
+why Use origin in git push?
+The syntax is:                                                                              
+
+sh
+git push <remote-name> <branch-name>
+origin = The remote repository (GitHub/GitLab).
+
+backup_branch = Your local branch being pushed.
+
+Without origin, Git wouldn’t know where to push your code!
+
+
+Working with 2 people
+
+
+git clone https:// <that forked url>
+
+git remote add upstream <orignal_repo>
+
+git remote -v                    [ to verify]
+
+
+git checkout -b my_branch
+
+git add .                                                           
+
+Git commit -m “my_change”
+
+git push origin my_branch
+
+setup eamil at worker
+
+git config user.email “prg2@tutamail.com”
+git config user.name “prag666”
+
+after all if your working again rebase it using this
+
+git fetch upstream/<branch_name>  to sync with the latest code in  originalcode
+
+git rebase upstream/main  <rebase your work on top of the latest changes>
+
+
+HOW TO UPDATE CHANGES TO THE CURRENT FORK
+
+Check if upstream is already added:
+
+bash
+git remote -v
+
+git fetch upstream/main    update the latest code into your code
+
+git rebase upstream/main Move my work on top of the latest updates. 
+
+                                                                    
+                                                                                    
