@@ -1,0 +1,13 @@
+p1_product 587 X 700
+p1_product_i1 137 X 163
+p1_product_i2 137 X 163
+p1_product_i3 137 X 163
+p1_product_i4 137 X 163
+
+product_2 350 X 418
+product_3 350 X 418
+product_5 350 X 418
+product_7 350 X 418
+product_11 350 X 418
+
+cart_product_icon 52 X 62
