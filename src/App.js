@@ -12,7 +12,7 @@ import Shop from './Pages/Shop';
 import ShopCategory from './Pages/ShopCategory';
 
 import men_banner from './Components/Assets/banner_mens.png'
-import women_banner from './Components/Assets/banner_women.png'
+import women_banner from './Components/Assets/banner_womens.png'
 import kid_banner from  './Components/Assets/banner_kids.png'
 
 function App() {
@@ -25,9 +25,9 @@ function App() {
 
             <Route path = '/' element = {<Shop/>} /> 
             <Route path = '/mens' element = {<ShopCategory banner = {men_banner} category = "men" />} />
-            <Route path = '/womens' element = {<ShopCategory banner = {women_banner} category = "women"  />} />
+           
             <Route path = '/kids' element = {<ShopCategory banner = {kid_banner} category = "kid" />} />
-
+            <Route path = '/women' element = {<ShopCategory banner = {women_banner } category = "women" />}>  </Route>
             <Route path = '/product' element = { <Product/> }    />
 
             <Route path= ':productId' element = { <Product/> } />
